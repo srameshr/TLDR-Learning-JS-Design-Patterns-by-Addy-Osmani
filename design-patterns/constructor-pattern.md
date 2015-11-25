@@ -54,6 +54,7 @@ var mondeo = new Car( "Ford Mondeo", 2010, 5000 );
  
 console.log( civic.toString() );
 console.log( mondeo.toString() );
+
 ```
 
 Now, multiple ```Car``` objects, share the same ```toString``` instance.
